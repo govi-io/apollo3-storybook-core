@@ -1,33 +1,4 @@
 {
-  "_args": [
-    [
-      "apollo-storybook-core@0.5.4",
-      "/home/sharkis/govi/business-web-app"
-    ]
-  ],
-  "_from": "apollo-storybook-core@0.5.4",
-  "_id": "apollo-storybook-core@0.5.4",
-  "_inBundle": false,
-  "_integrity": "sha512-5h+Yr4Pt2foGJi078gmjlQZ4mj8NBNravjjyhFOrfXTDQd2ODgWn2cwoSGJcpp+iZdkGwwlFkZbyJ1nBTsxukg==",
-  "_location": "/apollo-storybook-core",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "apollo-storybook-core@0.5.4",
-    "name": "apollo-storybook-core",
-    "escapedName": "apollo-storybook-core",
-    "rawSpec": "0.5.4",
-    "saveSpec": null,
-    "fetchSpec": "0.5.4"
-  },
-  "_requiredBy": [
-    "/",
-    "/apollo-storybook-react"
-  ],
-  "_resolved": "https://registry.npmjs.org/apollo-storybook-core/-/apollo-storybook-core-0.5.4.tgz",
-  "_spec": "0.5.4",
-  "_where": "/home/sharkis/govi/business-web-app",
   "author": {
     "name": "Abhi Aiyer"
   },
@@ -46,10 +17,9 @@
   },
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "apollo-storybook-core",
+  "name": "apollo3-storybook-core",
   "peerDependencies": {
-    "apollo-cache-inmemory": "^1.2.2",
-    "apollo-client": "^2.3.2",
+    "@apollo/client":"^3.3.4",
     "apollo-link": "^1.2.2",
     "graphql": "^0.13.2",
     "graphql-tools": "^3.0.2"
@@ -63,5 +33,5 @@
     "lint": "eslint src",
     "release": "standard-version"
   },
-  "version": "0.5.4"
+  "version": "0.0.1"
 }
